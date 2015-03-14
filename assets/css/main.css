@@ -13,6 +13,30 @@
 }
 
 .nav-sidebar > li > a {
+    text-align: center;
   padding-right: 20px;
   padding-left: 20px;
+    padding-top: 28px;
+    padding-bottom: 28px;
+}
+.main {
+    margin-top: 51px;
+  padding-right: 40px;
+  padding-left: 40px;
+}
+#question{
+    min-height: 500px;
+}
+.right-sidebar{
+    position: fixed;
+  top: 51px;
+  bottom: 0;
+  right: 0;
+  z-index: 1000;
+  display: block;
+  padding: 20px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  background-color: #f5f5f5;
+  border-right: 1px solid #eee;
 }
