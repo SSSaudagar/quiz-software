@@ -9,6 +9,7 @@
     <!-- Bootstrap -->
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
       <link href="assets/css/main.css" rel="stylesheet">
+      <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Tangerine">
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
   </head>
@@ -47,8 +48,19 @@
           </ul>
         </div>
         <div class="col-sm-9 col-sm-offset-3 col-md-offset-2 col-md-8  main">
+            <div id=title>
+                <h3>
+                <ul id=time>
+                    <li>Time:</li>
+                </ul>
+                <ul id=name>
+                    <li>Test Name</li>
+                </ul>
+                </h3>
+            </div>
+            
             <div id="question" class="row">
-                
+            <hr>    
             </div>
             <div class="row">
                 <div class="col-md-1"></div>
@@ -61,7 +73,7 @@
         </div>
           
           <div class="col-md-2 col-md-offset-10 right-sidebar">
-            
+                <img src="..." alt="..." width="140" height="140" class="img-thumbnail">
           </div>
       </div>
     </div>
